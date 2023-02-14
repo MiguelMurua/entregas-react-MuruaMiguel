@@ -54,6 +54,9 @@
     color: beige;
 }
 
+.navBar ul li a:hover{
+    color: rgb(227, 178, 54);
+}
 
 /*LOGO CARRITO*/
 
