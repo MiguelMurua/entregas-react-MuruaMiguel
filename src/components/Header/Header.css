@@ -1,0 +1,63 @@
+/*CONTAINER GLOBAL*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: black;
+}
+
+/*IMAGEN DE LOGO*/
+
+.container-logo{
+    display: flex;
+    justify-content: start;
+}
+
+.container-logo img{
+    width: 150px;
+    margin-left: 0;
+}
+
+/*TITULO*/
+.contenedor-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-titulo h1 {
+    color: beige;
+
+}
+
+/*NAVBAR*/
+
+.navBar{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.navBar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: beige;
+}
+
+
+/*LOGO CARRITO*/
+
+.container-carrito{
+    display: flex;
+    align-items: center;
+}
