@@ -1,7 +1,9 @@
 /*CONTAINER GLOBAL*/
 .container{
+    width: 100%;
+    height: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     background: black;
 }
@@ -11,23 +13,20 @@
 .container-logo{
     display: flex;
     justify-content: start;
+    align-items: center;
+    padding: 30px;
 }
 
 .container-logo img{
     width: 150px;
     margin-left: 0;
+    border-radius: 50%;
 }
-
 /*TITULO*/
-.contenedor-titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.contenedor-titulo h1 {
+.container-logo h1{
     color: beige;
-
+    padding-left: 20px;
 }
 
 /*NAVBAR*/
@@ -63,4 +62,14 @@
 .container-carrito{
     display: flex;
     align-items: center;
+    padding-right: 50px;
+}
+
+.container-carrito p {
+    color: beige;
+    text-align: center;
+    width: 25px;
+    font-size: 20px;
+    background-color: rgb(246, 0, 0);
+    border-radius: 50%;
 }

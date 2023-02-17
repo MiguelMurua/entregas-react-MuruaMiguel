@@ -1,26 +1,37 @@
 import React from "react";
 import "./Header.css";
-import carrito from "../../assets/burguer.png"
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-export const Header = () => {
+import carrito from "../../assets/food.jpg"
+import CartWidget from '@mui/icons-material/ShoppingCart';
+
+
+const Header = ({name, id }) => {
+    
+    const enlacesNav = [
+        {id: 0 , name:`Inicio`},
+        {id: 1 , name:`Productos`},
+        {id: 2 , name: `Nosotros`},
+        {id: 3 , name: `Contacto`}
+    ];
+    
+    
     return (
         <div className="container">
             <div className="container-logo">
                 <img src={carrito} alt="icono carrito" />
-            </div>
-            <div className="contenedor-titulo">
-                <h1>Food Lomos</h1>
+                <h1>Bienvenido "{name}"</h1>
             </div>
             <nav className="navBar">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Productos</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
+                {
+                    enlacesNav.map ((enlace)=>{
+                        return <ul>
+                            <li><a key={enlace.id} href="">{enlace.name}</a></li>
+                        </ul>
+                    })
+                }
             </nav>
             <div className="container-carrito">
-                <ShoppingCartIcon fontSize="large" color="secondary"/>
+                <CartWidget fontSize="large" color="secondary" />
+                <p>3</p>
             </div>
         </div>
     )
