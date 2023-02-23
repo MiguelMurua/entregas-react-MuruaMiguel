@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./NavBar.css";
 import carrito from "../../assets/food.jpg"
 import CartWidget from '@mui/icons-material/ShoppingCart';
 
@@ -37,4 +37,4 @@ const Header = ({name, id }) => {
     )
 }
 
-export default Header
+export default Header;

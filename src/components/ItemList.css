@@ -1,4 +1,68 @@
+
+
 h1{
     text-align: center;
     font-size: 2rem;
+}
+
+.container-cards{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(108, 108, 108);
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.container-button{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(181, 181, 181);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-button p {
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-button button{
+    border: none;
+    font-size: 1.2rem;
+    width: 15%;
+    cursor: pointer;
+}
+
+.send-carrito{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.send-carrito button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(246, 152, 37);
 }
