@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/Header/NavBar.js"
+import NavBar from "./components/Header/NavBar.js"
 import ItemListContainer from "./components/Items/ItemListContainer.js";
 import Estados from "./Estados.js"
 import Users from "./components/Users"
@@ -13,7 +13,7 @@ const App = () =>{
 
       return (
         <>
-          <Header 
+          <NavBar
           name={userName}
           id="1"
           lastname="Murua"
