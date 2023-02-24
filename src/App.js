@@ -1,16 +1,15 @@
 import React from "react";
 import Header from "./components/Header/NavBar.js"
-import ItemListContainer from "./components/ItemListContainer";
+import ItemListContainer from "./components/Items/ItemListContainer.js";
 import Estados from "./Estados.js"
 import Users from "./components/Users"
-
+import ItemDetailContainer from "./components/Items/ItemDetailContainer.js";
 
 const App = () =>{
 
       const userName = `Miguel`
-      const greetings = `Bienvenidos a Food Lomos`
+      const greetings = `Bienvenidos a Tienda Online`
 
-      const stockUp = 100
 
       return (
         <>
@@ -25,9 +24,10 @@ const App = () =>{
           prop5={1}
 
           />
-          <ItemListContainer
+          <ItemListContainer/>
+
+          <ItemDetailContainer 
           tittle={greetings}
-          stock={stockUp}
           />
 
           <Estados/>

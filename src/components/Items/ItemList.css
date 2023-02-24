@@ -1,0 +1,47 @@
+/*FONTS
+font-family: 'Poppins', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.tituloMain{
+    text-align: center;
+}
+
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0 0 25px rgb(118, 118, 118);
+}
+
+.cards img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.cards h3 {
+    width: 100%;
+    height: 30%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.cards p {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import carrito from "../../assets/food.jpg"
+import carrito from "../../assets/logotipo.png"
 import CartWidget from '@mui/icons-material/ShoppingCart';
 
 
