@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css"
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Categorias = () => {
 
@@ -18,8 +18,8 @@ const Categorias = () => {
                 enlacesNav.map((enlace) => {
                     return <ul>
                     <li>
-                        <Link key={enlace.id} to={enlace.route}>{enlace.name}
-                        </Link>
+                        <NavLink key={enlace.id} to={enlace.route}>{enlace.name}
+                        </NavLink>
                     </li>
                     </ul>
                 })
