@@ -4,7 +4,7 @@ import ItemListContainer from "./components/Items/ItemListContainer.js";
 import Estados from "./Estados.js"
 import Users from "./components/Users"
 import ItemDetailContainer from "./components/Items/ItemDetailContainer.js";
-
+import {BrowserRouter} from "react-router-dom";
 
 
 
@@ -14,21 +14,12 @@ const App = () =>{
       const greetings = `Bienvenidos a Tienda Online`
 
       return (
-        <>
+
+      <> 
+        <BrowserRouter>
           <NavBar
           name={userName}
-          id="1"
-          lastname="Murua"
-          prop1={1}
-          prop2={1}
-          prop3={1}
-          prop4={1}
-          prop5={1}
-          
-          
-        />
-        
-        
+          />
           <ItemListContainer           
           tittle={greetings}/>
 
@@ -37,7 +28,9 @@ const App = () =>{
           <Estados/>
 
           <Users />
-        </>
+        </BrowserRouter>
+
+      </> 
       ) 
 
 };

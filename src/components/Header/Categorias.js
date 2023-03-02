@@ -1,26 +1,29 @@
 import React from "react";
 import "./NavBar.css"
+import { Link, NavLink } from "react-router-dom";
 
-
-const Categorias = ()=>{
+const Categorias = () => {
 
     const enlacesNav =
         [
-            {id: 0 , name:`Inicio`},
-            {id: 1 , name:`Productos`},
-            {id: 2 , name: `Nosotros`},
-            {id: 3 , name: `Contacto`}
+            { id: 0, name: `Electronica` , route:`/categoria/electronics` },
+            { id: 1, name: `Joyeria` , route:`/categoria/jewelery` },
+            { id: 2, name: `Ropa Hombre` , route:`/categoria/men's clothing`},
+            { id: 3, name: `Ropa Mujer` , route:`/categoria/women's clothing`}
         ];
 
     return (
         <nav className="navBar">
-        {
-            enlacesNav.map ((enlace)=>{
-                return <ul>
-                            <li><a key={enlace.id} href="">{enlace.name}</a></li>
-                        </ul>
-            })
-        }
+            {
+                enlacesNav.map((enlace) => {
+                    return <ul>
+                    <li>
+                        <Link key={enlace.id} to={enlace.route}>{enlace.name}
+                        </Link>
+                    </li>
+                    </ul>
+                })
+            }
         </nav>
     );
 
