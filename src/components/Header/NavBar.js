@@ -1,18 +1,10 @@
 import React from "react";
 import "./NavBar.css";
 import carrito from "../../assets/logotipo.png"
-import CartWidget from '@mui/icons-material/ShoppingCart';
+import CartWidget from './CartWidget.js';
+import Categorias from "./Categorias.js";
 
-
-const Header = ({name, id }) => {
-    
-    const enlacesNav = [
-        {id: 0 , name:`Inicio`},
-        {id: 1 , name:`Productos`},
-        {id: 2 , name: `Nosotros`},
-        {id: 3 , name: `Contacto`}
-    ];
-    
+const NavBar = ({name, id }) => {
     
     return (
         <div className="container">
@@ -20,21 +12,14 @@ const Header = ({name, id }) => {
                 <img src={carrito} alt="icono carrito" />
                 <h1>Bienvenido "{name}"</h1>
             </div>
-            <nav className="navBar">
-                {
-                    enlacesNav.map ((enlace)=>{
-                        return <ul>
-                            <li><a key={enlace.id} href="">{enlace.name}</a></li>
-                        </ul>
-                    })
-                }
-            </nav>
+
+            <Categorias/>
+
             <div className="container-carrito">
-                <CartWidget fontSize="large" color="secondary" />
-                <p>3</p>
+                <CartWidget/>
             </div>
         </div>
     )
 }
 
-export default Header;
+export default NavBar;

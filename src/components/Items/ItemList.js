@@ -1,24 +1,19 @@
 import React from "react";
-import "./ItemDetail.css"
+import List from "./List.js";
 
-const ItemList = ({product})=>{
+const ItemList = ({products})=>{
 
-    return (
 
-        <>
+        return (
+            <>
+                {products.map((product)=>{
+                    return (<List key={product.id} product={product}/>)
+                })}
+            </>
+            )
         
-            <div key={product.id} className="cards">
-                <img src={product.image} alt="" />
-                <h3>
-                    {product.title}
-                </h3>
-                <p>$ {product.price}</p>
-            </div>
-        
-        </>
-
     
-    )
+
 
 
 }

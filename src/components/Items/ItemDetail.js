@@ -1,17 +1,17 @@
 import React from "react";
-import ItemList from "./ItemList";
+import Detail from "./Detail.js";
 
-const ItemDetail = ({products})=>{
+const ItemDetail = ({product})=>{
 
     return (
-    <>
-        {products.map((product)=>{
-            return (<ItemList key={product.id} product={product}/>)
-        })}
-    </>
+        
+    <Detail key={product.id} product={product}/>
+        
+        
     )
 
 
 }
 
 export default ItemDetail
+

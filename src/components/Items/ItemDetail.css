@@ -24,20 +24,21 @@ font-family: 'Poppins', sans-serif;
     flex-direction: column;
     border-radius: 5px;
     width: 300px;
-    height: 400px;
+    height: auto;
     margin: 20px;
     box-shadow: 0 0 25px rgb(118, 118, 118);
 }
 
 .cards img {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     margin: auto;
+    padding-top: 20px;
 }
 
 .cards h3 {
     width: 100%;
-    height: 30%;
+    height: 15%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.25rem;
@@ -48,4 +49,15 @@ font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 10%;
     text-align: center;
+}
+
+/*********BOTON CARDS**********/
+
+.botonCards{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(243, 119, 237, 0.905);
+    color: rgb(55, 55, 55);
+    border: 1px solid rgb(172, 172, 172);
+    cursor: pointer;
 }

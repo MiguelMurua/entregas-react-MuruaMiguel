@@ -5,11 +5,13 @@ import Estados from "./Estados.js"
 import Users from "./components/Users"
 import ItemDetailContainer from "./components/Items/ItemDetailContainer.js";
 
+
+
+
 const App = () =>{
 
       const userName = `Miguel`
       const greetings = `Bienvenidos a Tienda Online`
-
 
       return (
         <>
@@ -22,13 +24,15 @@ const App = () =>{
           prop3={1}
           prop4={1}
           prop5={1}
+          
+          
+        />
+        
+        
+          <ItemListContainer           
+          tittle={greetings}/>
 
-          />
-          <ItemListContainer/>
-
-          <ItemDetailContainer 
-          tittle={greetings}
-          />
+          <ItemDetailContainer/>
 
           <Estados/>
 
