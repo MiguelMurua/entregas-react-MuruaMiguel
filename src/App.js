@@ -1,37 +1,36 @@
 import React from "react";
 import NavBar from "./components/Header/NavBar.js"
 import ItemListContainer from "./components/Items/ItemListContainer.js";
-import Estados from "./Estados.js"
-import Users from "./components/Users"
 import ItemDetailContainer from "./components/Items/ItemDetailContainer.js";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Cart from "./components/Cart/CartContainer.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
-const App = () =>{
+const App = () => {
 
-      const userName = `Miguel`
-      const greetings = `Bienvenidos a Tienda Online`
+  const userName = `Miguel`
+  const greetings = `Bienvenidos a Tienda Online`
 
-      return (
+  return (
 
-      <> 
-        <BrowserRouter>
-          <NavBar name={userName}/>
-          <Routes>
-            <Route path="/" element={<ItemListContainer tittle={greetings}/>}></Route>
-            
-            <Route path="/cart" element={<ItemDetailContainer/>}></Route>
-              
-          </Routes>
+    <>
+      <BrowserRouter>
+        <NavBar name={userName} />
+        <Routes>
+          <Route path="/" element={<ItemListContainer tittle={greetings} />}></Route>
 
-          <Estados/>
+          <Route path="/categoria/:name" element={<ItemListContainer tittle={greetings} />}></Route>
 
-          <Users />
-        </BrowserRouter>
+          <Route path="/product/:id" element={<ItemDetailContainer />}></Route>
 
-      </> 
-      ) 
+          <Route path="/cart/:id" element={<Cart />}></Route>
+
+        </Routes>
+      </BrowserRouter>
+
+    </>
+  )
 
 };
 
