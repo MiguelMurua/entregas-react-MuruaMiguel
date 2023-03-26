@@ -5,7 +5,9 @@ import CartWidget from './CartWidget.js';
 import Categorias from "./Categorias.js";
 import { Link } from "react-router-dom";
 
-const NavBar = ({ name, id }) => {
+
+
+const NavBar = ({ name }) => {
 
     return (
         <div className="container">

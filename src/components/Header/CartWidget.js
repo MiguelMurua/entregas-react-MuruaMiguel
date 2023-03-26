@@ -1,13 +1,16 @@
-import React from "react";
+import React,{useContext} from "react";
 import CartWidget from '@mui/icons-material/ShoppingCart';
+import { CustomContext } from "../../context/CustomContext";
+
 
 const Cart = ()=>{
 
+    const { totals } = useContext(CustomContext);
+
     return (
         <>
-            <CartWidget fontSize="large" color="secondary" />
-            <p>3</p>        
-        
+            <CartWidget fontSize="large" color="secondary" />  
+            {totals.qty > 0 && <p>{totals.qty}</p>}     
         </>
     )
 

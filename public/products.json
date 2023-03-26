@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Pizza Muzarella",
+        "description": "Esto es un producto",
+        "id" : 1,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza Napolitana",
+        "description": "Esto es un producto",
+        "id" : 2,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza Calabresa",
+        "description": "Esto es un producto",
+        "id" : 3,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza Margarita",
+        "description": "Esto es un producto",
+        "id" : 4,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },    
+    {
+        "name": "Pizza De la Casa",
+        "description": "Esto es un producto",
+        "id" : 5,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza Cuatro Quesos",
+        "description": "Esto es un producto",
+        "id" : 6,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza con Champiñones",
+        "description": "Esto es un producto",
+        "id" : 7,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Pizza Fugazzeta",
+        "description": "Esto es un producto",
+        "id" : 8,
+        "image": [],
+        "price": 100,
+        "category": "pizza"
+        
+    },
+    {
+        "name": "Hamburguesa simple",
+        "description": "Esto es un producto",
+        "id" : 9,
+        "image": [],
+        "price": 100,
+        "category": "burgers"
+        
+    },
+    {
+        "name": "Hamburguesa doble",
+        "description": "Esto es un producto",
+        "id" : 10,
+        "image": [],
+        "price": 100,
+        "category": "burgers"
+        
+    },
+    {
+        "name": "Hamburguesa triple",
+        "description": "Esto es un producto",
+        "id" : 11,
+        "image": [],
+        "price": 100,
+        "category": "burgers"
+        
+    },
+    {
+        "name": "Lomito simple",
+        "description": "Esto es un producto",
+        "id" : 12,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Lomo completo",
+        "description": "Esto es un producto",
+        "id" : 13,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Lomito de pollo",
+        "description": "Esto es un producto",
+        "id" : 14,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Lomito Vegetariano",
+        "description": "Esto es un producto",
+        "id" : 15,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Lomito Mexicano",
+        "description": "Esto es un producto",
+        "id" : 16,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Lomito Americano",
+        "description": "Esto es un producto",
+        "id" : 17,
+        "image": [],
+        "price": 100,
+        "category": "lomitos"
+        
+    },
+    {
+        "name": "Empanadas arabes",
+        "description": "Esto es un producto",
+        "id" : 18,
+        "image": [],
+        "price": 100,
+        "category": "empanadas"
+        
+    },
+    {
+        "name": "Empanadas criollas",
+        "description": "Esto es un producto",
+        "id" : 19,
+        "image": [],
+        "price": 100,
+        "category": "empanadas"
+        
+    },
+    {
+        "name": "Empanadas dulces",
+        "description": "Esto es un producto",
+        "id" : 20,
+        "image": [],
+        "price": 100,
+        "category": "empanadas"
+        
+    },
+    {
+        "name": "Empanadas tucumanas",
+        "description": "Esto es un producto",
+        "id" : 21,
+        "image": [],
+        "price": 100,
+        "category": "empanadas"
+        
+    },
+    {
+        "name": "Empanadas de jamon y queso",
+        "description": "Esto es un producto",
+        "id" : 22,
+        "image": [],
+        "price": 100,
+        "category": "empanadas"
+        
+    },
+    {
+        "name": "Papas fritas",
+        "description": "Esto es un producto",
+        "id" : 23,
+        "image": [],
+        "price": 100,
+        "category": "papas"
+        
+    },
+    {
+        "name": "Papas con cheedar y bacon",
+        "description": "Esto es un producto",
+        "id" : 24,
+        "image": [],
+        "price": 100,
+        "category": "papas"
+        
+    },
+    {
+        "name": "Papas rusticas",
+        "description": "Esto es un producto",
+        "id" : 25,
+        "image": [],
+        "price": 100,
+        "category": "papas"
+        
+    },
+    {
+        "name": "Ensalada mixta",
+        "description": "Esto es un producto",
+        "id" : 26,
+        "image": [],
+        "price": 100,
+        "category": "ensaladas"
+        
+    },
+    {
+        "name": "Ensalada Caprese",
+        "description": "Esto es un producto",
+        "id" : 27,
+        "image": [],
+        "price": 100,
+        "category": "ensaladas"
+        
+    },
+    {
+        "name": "Ensalada rusa",
+        "description": "Esto es un producto",
+        "id" : 28,
+        "image": [],
+        "price": 100,
+        "category": "ensaladas"
+        
+    },
+    {
+        "name": "Ensalada César c/ave",
+        "description": "Esto es un producto",
+        "id" : 29,
+        "image": [],
+        "price": 100,
+        "category": "ensaladas"
+        
+    },
+    {
+        "name": "Ensalada César s/ave",
+        "description": "Esto es un producto",
+        "id" : 30,
+        "image": [],
+        "price": 100,
+        "category": "ensaladas"
+        
+    }
+]

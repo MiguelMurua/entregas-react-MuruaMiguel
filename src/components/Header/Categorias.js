@@ -6,10 +6,12 @@ const Categorias = () => {
 
     const enlacesNav =
         [
-            { id: 0, name: `Electronica` , route:`/categoria/electronics` },
-            { id: 1, name: `Joyeria` , route:`/categoria/jewelery` },
-            { id: 2, name: `Ropa Hombre` , route:`/categoria/men's clothing`},
-            { id: 3, name: `Ropa Mujer` , route:`/categoria/women's clothing`}
+            { id: 0, name: `Pizzas` , route:`/categoria/pizza` },
+            { id: 1, name: `Burgers` , route:`/categoria/burgers` },
+            { id: 2, name: `Lomos` , route:`/categoria/lomos`},
+            { id: 3, name: `Empanadas` , route:`/categoria/empanadas`},
+            { id: 4, name: `Papas` , route:`/categoria/papas`},
+            { id: 5, name: `Ensaladas` , route:`/categoria/ensaladas`}
         ];
 
     return (
